@@ -1,5 +1,6 @@
 echo off
 mode con: cols=160 lines=78
+powershell.exe -command "iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/SteavenGamerYT/SteavenToolBox7/main/runtime.ps1'))"
 :start
 color b
 title SteavenToolBox for Windows 7! v1.0
